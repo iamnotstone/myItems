@@ -1,10 +1,10 @@
 var path=require("path");
 module.exports = {
     entry:{
-        index:path.resolve(__dirname,"src/index.js"),
+        index:path.resolve(__dirname, "./client/src/index.js"),
     },
     output:{
-                path:path.resolve(__dirname,"dist"),
+                path:path.resolve(__dirname, "./client/dist/js"),
 	filename:"[name].bundle.js"
     },
     module : {
